@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
   get <- function() x 
           ## get() returns the matrix stored in the makeCacheMatrix-function
   setinverse <- function(inverse) m <<- inverse 
-                                  ## setinverse() assigns it's input to m. m is supposed to be the inverse matrix of x.
+                                  ## setinverse() assigns its input to m. m is supposed to be the inverse matrix of x.
   getinverse <- function() m      ## get m
   list(set = set, get = get,
        setinverse = setinverse,
